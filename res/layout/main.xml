@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+     
+<Spinner android:id="@+id/hydart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18px"
+ />
+<Spinner android:id="@+id/hyddurch"
+                    android:layout_width="wrap_content"
+                    android:textSize="18px"
+                    android:layout_height="wrap_content"
+   					android:layout_below="@id/hydart"
+/>
+<EditText android:id="@+id/edthyddurch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:inputType="textMultiLine"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:hint="@string/hintHyddurch"
+        android:layout_toRightOf="@id/hyddurch"
+        android:layout_below="@id/hydart"
+        /> 
+<EditText android:id="@+id/edtStreet"
+        android:layout_width="1000dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="200"
+        android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
+        android:maxLines="2"
+        android:maxLength="1000"
+        android:hint="@string/hintStreet"
+        android:layout_below="@id/hyddurch"
+        /> 
+  
+  <Button android:id="@+id/sf_save" 
+    android:text="@string/tx_save"
+    android:onClick="onSaveHydrant"
+    android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:layout_below="@id/edtStreet"
+        />
+  <Button android:id="@+id/sf_cancel" 
+    android:text="@string/tx_cancel"
+    android:onClick="onCancelHydrant"
+    android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_below="@id/sf_save"
+        />                        
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="map_mode">Kartenmodus</string>
+	<string name="my_location">Standort</string>
+	<string name="about">Über</string>
+	<string name="hintStreet">Optional: Strasse Nr</string>
+	<string name="hintHydart">Optional: Art</string>
+	<string name="hintHyddurch">Optional: Durchm.</string>
+	<string name="about_message">Diese Software benutzt Kartenmaterial von OpenStreetMap.org</string>
+</resources>

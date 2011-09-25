@@ -1,0 +1,8 @@
+<resources>
+  <array name="sp_what_entries">
+    <item>DVD</item>
+    <item>Buch</item>
+    <item>Geld</item>
+    <item>Auto</item>        
+  </array>    
+</resources>
